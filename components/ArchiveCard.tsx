@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import Link from "next/link";
 import { AiOutlineRead } from "react-icons/ai";
 import { HiDevicePhoneMobile } from "react-icons/hi2";
