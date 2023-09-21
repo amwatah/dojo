@@ -1,5 +1,5 @@
 ##Dojo
-Dojo is my personal developer portfolio project.
+Dojo is my personal developer portfolio project built with Next Js , Tailwind and Framer motion.
 
 ## Getting Started
 
