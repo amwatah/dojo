@@ -46,7 +46,7 @@ const Projects = () => {
           }
           imageRelativePath="/projects/teksade.png"
           technonogies={["Next", "Typescript", "Postgres", "tRPC"]}
-          url="https://www.teksade.com/"
+          url="https://teksade.vercel.app"
           github="https://github.com/amwatah/teksade"
         />
       </div>
