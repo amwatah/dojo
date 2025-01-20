@@ -15,7 +15,7 @@ const Experience = () => {
               activeExperience === 0 ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
             } cursor-pointer border-l-2 bg-transparent py-3 px-8  text-sm font-medium duration-300 hover:bg-[#112240]`}
           >
-            Surestep
+            Pochy Labs
           </li>
           <li
             onClick={() => setActiveExperience(1)}
@@ -23,7 +23,7 @@ const Experience = () => {
               activeExperience === 1 ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
             } cursor-pointer border-l-2 bg-transparent py-3 px-8  text-sm font-medium duration-300 hover:bg-[#112240]`}
           >
-            CloudPesa
+            Surestep
           </li>
           <li
             onClick={() => setActiveExperience(2)}
@@ -31,7 +31,7 @@ const Experience = () => {
               activeExperience === 2 ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
             } cursor-pointer border-l-2 bg-transparent py-3 px-8  text-sm font-medium duration-300 hover:bg-[#112240]`}
           >
-            Teksade
+            CloudPesa
           </li>
           <li
             onClick={() => setActiveExperience(3)}
@@ -39,15 +39,37 @@ const Experience = () => {
               activeExperience === 3 ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
             } cursor-pointer border-l-2 bg-transparent py-3 px-8  text-sm font-medium duration-300 hover:bg-[#112240]`}
           >
+            Teksade
+          </li>
+          <li
+            onClick={() => setActiveExperience(4)}
+            className={`${
+              activeExperience === 4 ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
+            } cursor-pointer border-l-2 bg-transparent py-3 px-8  text-sm font-medium duration-300 hover:bg-[#112240]`}
+          >
             Navix
           </li>
         </ul>
         {activeExperience === 0 && (
           <ExperienceCard
+            at="Pochy Labs"
+            orginizationUrl="https://www.safariswap.io/"
+            from="Jan 2024"
+            to="Present"
+            role="Blockchain developer"
+            accommplishments={[
+              "Developed Safariswap , a blockchain on-ramp and  off-ramp application that intergrates with M-Pesa for payments",
+              "Worked on intergrating the app with Safaricom's Daraja API for mobile  payments",
+              "Wrote and tested Smart Contracts using Solidity and Web3Js",
+            ]}
+          />
+        )}
+        {activeExperience === 1 && (
+          <ExperienceCard
             at="Surestep Innovation Center"
             orginizationUrl="https://surestep.co.ke/"
-            from="January 2023 "
-            to=" Present"
+            from="April 2023 "
+            to="December 2023"
             role="Software Developer"
             accommplishments={[
               "Responsible for developing and maintaining and Web applications  using Next Js",
@@ -57,12 +79,12 @@ const Experience = () => {
             ]}
           />
         )}
-        {activeExperience === 1 && (
+        {activeExperience === 2 && (
           <ExperienceCard
             at="CloudPesa"
             orginizationUrl="https://surestep.co.ke/"
-            from="January 2023"
-            to=" Present"
+            from="April 2023"
+            to="December"
             role="Software Developer"
             accommplishments={[
               "Worked on intergration on mobile banking applictions to web portals",
@@ -70,12 +92,12 @@ const Experience = () => {
             ]}
           />
         )}
-        {activeExperience === 2 && (
+        {activeExperience === 3 && (
           <ExperienceCard
             at="Teksade"
             orginizationUrl="https://www.teksade.com/"
             from="January 2023 "
-            to=" Present"
+            to="Present"
             role="Software Developer"
             accommplishments={[
               "Contributed to the developement of a  tech community discovery project",
@@ -83,7 +105,7 @@ const Experience = () => {
             ]}
           />
         )}
-        {activeExperience === 3 && (
+        {activeExperience === 4 && (
           <ExperienceCard
             at="Navix Systems"
             orginizationUrl="https://www.linkedin.com/in/paul-okemwa-4b544b186/?originalSubdomain=ke"
