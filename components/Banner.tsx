@@ -38,7 +38,7 @@ const Banner = () => {
         </span>{" "}
         , and I&apos;m passionate about harnessing the power of technology to make a positive impact.
       </motion.p>
-      <Link href="https://docs.google.com/document/d/1DB7Mxuz5gjkYZBhnA5oi1iVKOetRwnTVWuZegz1BiTg/edit?usp=sharing" download target="_blank">
+      <Link href="https://drive.google.com/file/d/1V2SM16aphpeqwavcgfVXPCacaiYXPBO6/view?usp=sharing" download target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
